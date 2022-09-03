@@ -23,6 +23,10 @@ var snap = Vector2.ZERO
 var velocity = Vector2.ZERO
 var normal_rotation = Vector2.DOWN
 
+# signals
+signal hit_pass(pass_door)
+
+
 func _ready():
 	normal_rotation = rotation
 func _physics_process(delta):	
